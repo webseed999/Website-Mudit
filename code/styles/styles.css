@@ -136,7 +136,7 @@ body{
     right: 9%;
     border-radius: 50px;
     color: white;
-    background-image: linear-gradient(to bottom right, rgba(20, 165, 1, 0.74) , rgba(101, 234, 0, 0.83));
+    background-image: linear-gradient(to bottom right, rgba(11, 97, 0, 0.74) , rgba(101, 234, 0, 0.83));
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -177,7 +177,7 @@ body{
     height: 49rem;
     background-color: rgba(0, 0, 0, 0.644);
     position: absolute;
-    top: 0;;
+    top: 0;
 }
 
 .first_text_box{
@@ -191,4 +191,28 @@ body{
     position: absolute;
     top: 15%;
     right: 8%;
+}
+
+/*Third Slide*/ 
+
+.third_container{
+    width: auto;
+    height: 49rem;
+    background-color: rgb(33, 33, 33);
+}
+
+.third_main_bg{
+    width: 100% ;
+    height: 51rem;
+}
+
+.third_heading{
+    width:28rem;
+    height:4rem;
+    background-image: linear-gradient(to bottom right, rgba(11, 97, 0, 0.74) , rgba(101, 234, 0, 0.83));
+    border-radius: 0px 15px 15px 0px;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
 }
