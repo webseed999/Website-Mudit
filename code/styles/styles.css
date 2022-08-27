@@ -196,23 +196,60 @@ body{
 /*Third Slide*/ 
 
 .third_container{
+    background-image: url("/images/2.jpg");
+    background-size:cover;
     width: auto;
-    height: 49rem;
+    height: 58rem;
     background-color: rgb(33, 33, 33);
+  
 }
 
-.third_main_bg{
-    width: 100% ;
-    height: 51rem;
-}
+
 
 .third_heading{
-    width:28rem;
+    width:30rem;
     height:4rem;
-    background-image: linear-gradient(to bottom right, rgba(11, 97, 0, 0.74) , rgba(101, 234, 0, 0.83));
-    border-radius: 0px 15px 15px 0px;
+    background-image: linear-gradient(to bottom right, rgba(11, 97, 0, 0.74) , rgba(101, 234, 0, 0.9));
+    border-radius: 0px 20px 20px 0px;
     text-align:center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     color: white;
+}
+
+.third_main_logo{
+
+    position: absolute;
+    margin-top: 2rem;
+    height: 55vh;
+    width: 45vw;
+    opacity: 0.95;
+    transition:  0.1s ease-in;
+}
+
+.third_main_logo2{
+
+    position: absolute;
+    margin-top: 28rem;
+    margin-left: 50rem;
+    height: 55vh;
+    width: 45vw;
+    opacity: 0.95;
+    transition:  0.1s ease-in;
+}
+
+.third_main_logo:hover{
+    scale: 1.02;
+}
+
+.third_main_logo:active{
+    scale: 1.02;
+}
+.third_main_logo2:hover{
+    scale: 1.02;
+    animation-timeline: 1;
+}
+
+.third_main_logo2:active{
+    scale: 1.02;
 }
