@@ -416,8 +416,8 @@ hr {
     opacity: 0.95;
     transition: 0.2s ease-out;
     cursor: pointer;
-    height: 350px;
-    width: 500px;
+    height: 360px;
+    width: 600px;
 }
 
 .third_main_logo2 {
@@ -427,8 +427,8 @@ hr {
     opacity: 0.95;
     transition: 0.2s ease-out;
     cursor: pointer;
-    height: 350px;
-    width: 500px;
+    height: 360px;
+    width: 600px;
 }
 
 .third_main_logo:hover {
@@ -616,6 +616,99 @@ i.fa-arrow-right-long {
     opacity: 0.5;
 }
 
+/* section6 */
+.container-1-sec6 {
+    height: 680px;
+    width: 1536px;
+    background-color: white;
+    position: relative;
+    background-size: cover;
+    
+}
+.sixth_heading{
+    width: 18rem;
+    height: 2rem;
+    background-image: linear-gradient(to bottom right, rgba(11, 97, 0, 0.74), rgba(101, 234, 0, 0.9));
+    border-radius: 0px 9px 9px 0px;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+  .card {
+    position: absolute;
+    width: 650px;
+    height:400px;
+    left: 27rem;
+    right: 0;
+    top:5rem;
+    transition: transform .4s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+
+  input[type=radio] {
+    
+    display: none;
+  
+  }
+
+  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+#item-2:checked ~ .player #test {
+    transform: translateY(0);
+  }
+  
+  #item-2:checked ~ .player #test  {
+    transform: translateY(-40px);
+  }
+  
+  #item-3:checked ~ .player #test  {
+    transform: translateY(-80px);
+  }
+  
+  
 
 /* Sec-5 starts */
 
